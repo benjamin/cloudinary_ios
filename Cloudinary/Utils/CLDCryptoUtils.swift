@@ -22,7 +22,7 @@
 //  SOFTWARE.
 
 import Foundation
-import CLDCrypto
+import CommonCrypto
 
 
 public func cloudinarySignParamsUsingSecret(_ paramsToSign: [String : Any],cloudinaryApiSecret: String) -> String {
